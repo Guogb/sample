@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
+<<<<<<< HEAD
     <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="col-md-offset-1 col-md-10">
@@ -21,6 +22,15 @@
 
     <div class="container">
       @yield('content')
+=======
+    @include('layouts._header')
+
+    <div class="container">
+      <div class="col-md-offset-1 col-md-10">
+        @yield('content')
+        @include('layouts._footer')
+      </div>
+>>>>>>> filling-layout-style
     </div>
   </body>
 </html>
