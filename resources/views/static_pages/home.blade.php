@@ -1,9 +1,7 @@
 @extends('layouts.default')
-<<<<<<< HEAD
-
-=======
 @section('title', '首页')
->>>>>>> filling-layout-style
+
+
 @section('content')
   <div class="jumbotron">
     <h1>Hello Laravel</h1>
@@ -14,11 +12,8 @@
       一切，将从这里开始。
     </p>
     <p>
-<<<<<<< HEAD
-      <a class="btn btn-lg btn-success" href="#" role="button">现在注册</a>
-=======
+
       <a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">现在注册</a>
->>>>>>> filling-layout-style
     </p>
   </div>
 @stop
